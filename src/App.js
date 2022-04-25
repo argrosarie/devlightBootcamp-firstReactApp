@@ -4,16 +4,14 @@ import Login from './components/login';
 import Register from './components/register';
 import  EjemploUseState from './components/hooktest.jsx';
 import Success from './components/success';
-import Error from './components/error'
+import Error from './components/error';
+import Main from './components/main'
 
 
 const App = () => {
   return (
     <>
-    {/*<Success /> 
-     <Error /> 
-   {/* <Register />  */}
-  <Login />
+    <Main />
     </>
   )
 }
