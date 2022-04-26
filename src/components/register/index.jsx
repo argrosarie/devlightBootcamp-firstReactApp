@@ -3,8 +3,6 @@ import './register.css';
 import {AiOutlineEyeInvisible, AiOutlineUser, AiOutlineMail} from 'react-icons/ai';
 
 
-
-
 const Login = () => {
   return (
    <div className="login">
@@ -33,7 +31,7 @@ const Login = () => {
               </div> 
                 </form>
                 <div className='login__modal--form-buttoncontainer'>
-               <button className="login__modal--form--button signin">Sign up</button>
+               <button className="login__modal--form--button signin" onClick={() => console.log("info")}>Sign up</button>
                </div>
            </form>
        </div>
